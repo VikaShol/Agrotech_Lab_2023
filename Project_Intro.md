@@ -6,8 +6,11 @@ Additionally, we used a solar panel to power the ESP-CAM, in order to capture an
 By implementing these technologies, we aim to create an environment where plants can thrive by maintaining the ideal humidity conditions required for their growth and development.
 
 For our equipment list, please visit this link : 
+
 For our full code and explanation of the steps, please visit this link:
+
 For images of the project, please visit this link :
 
 Guy, Shir and Vika
+
 Faculty of Agriculture
