@@ -7,7 +7,7 @@ By implementing these technologies, we aim to create an environment where plants
 
 For our equipment list, please visit this link : https://github.com/VikaShol/Agrotech_Lab_2023/blob/main/Equipment_List
 
-For our full code and explanation of the steps, please visit this link:
+For our full code and explanation of the steps, please visit this link: https://github.com/VikaShol/Agrotech_Lab_2023/tree/main/Code
 
 For images of the project, please visit this link :
 
