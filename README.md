@@ -26,3 +26,21 @@ Description: [The "ESP32-CAM_MJPEG2SD" project is designed to enable an ESP32-CA
 The code in this repository is based on the work of [[Author's Name](https://github.com/s60sc). Please refer to their repository for the original source code and license information. For more detailed instructions and a step-by-step guide, please check out the accompanying [YouTube tutorial](https://www.youtube.com/watch?v=k_PJLkfqDuI) for this project.
 
 
+## Project Description
+
+This project consists of two parts: monitoring soil moisture levels and automating watering using solenoid valves, as well as controlling humidity levels with a fan.
+
+### Soil Moisture Monitoring and Automated Watering
+
+In the first part of the project, three soil moisture sensors are placed inside separate pots to monitor the moisture levels in the soil. These sensors measure the amount of moisture present in the soil and provide feedback to the system.
+
+Using the data from the soil moisture sensors, the system determines whether the soil requires watering. If the moisture levels drop below a certain threshold, indicating the need for water, the system triggers the watering mechanism.
+
+### Humidity Control
+
+The second part of the project focuses on controlling humidity levels using an SHT31 sensor. The SHT31 sensor measures the relative humidity (RH) in the environment. If the RH exceeds a predefined threshold, indicating excessive moisture, the system activates a fan to lower the humidity.
+
+By integrating the SHT31 sensor and the fan control mechanism, the system creates a closed-loop feedback system to maintain optimal humidity levels. This feature ensures a conducive environment for plant growth and helps prevent issues such as mold or fungal growth.
+
+Feel free to explore the repository for more detailed information, including circuit diagrams, code implementation, and setup instructions.
+
