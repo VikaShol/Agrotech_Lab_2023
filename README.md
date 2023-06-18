@@ -15,7 +15,7 @@ Guy, Shir and Vika
 
 Faculty of Agriculture
 
-
-[(https://github.com/s60sc/ESP32-CAM_MJPEG2SD)https://github.com/s60sc/ESP32-CAM_MJPEG2SD](URL)
+code for esp32-Cam by max imagination
+[https://github.com/s60sc/ESP32-CAM_MJPEG2SD](URL)
 
 
