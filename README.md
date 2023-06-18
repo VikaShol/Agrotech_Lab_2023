@@ -15,8 +15,7 @@ Guy, Shir and Vika
 
 Faculty of Agriculture
 
-[Code for ESP32-Cam]([URL](https://github.com/s60sc/ESP32-CAM_MJPEG2SD)https://github.com/s60sc/ESP32-CAM_MJPEG2SD)
-
+[Code for ESP32-Cam]([https://github.com/s60sc/ESP32-CAM_MJPEG2SD]
 
 
 
