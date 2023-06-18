@@ -36,7 +36,7 @@ In the first part of the project, three soil moisture sensors are placed inside 
 
 Using the data from the soil moisture sensors, the system determines whether the soil requires watering. If the moisture levels drop below a certain threshold, indicating the need for water, the system triggers the watering mechanism.
 
-![s](https://github.com/VikaShol/Agrotech_Lab_2023/blob/main/Photos/Automated%20Watering.png)
+![](https://github.com/VikaShol/Agrotech_Lab_2023/blob/main/Photos/Automated%20Watering.png)
 
 
 ### Humidity Control
@@ -44,6 +44,9 @@ Using the data from the soil moisture sensors, the system determines whether the
 The second part of the project focuses on controlling humidity levels using an SHT31 sensor. The SHT31 sensor measures the relative humidity (RH) in the environment. If the RH exceeds a predefined threshold, indicating excessive moisture, the system activates a fan to lower the humidity.
 
 By integrating the SHT31 sensor and the fan control mechanism, the system creates a closed-loop feedback system to maintain optimal humidity levels. This feature ensures a conducive environment for plant growth and helps prevent issues such as mold or fungal growth.
+
+![](https://github.com/VikaShol/Agrotech_Lab_2023/blob/main/Photos/Humidity%20Control.png)
+
 
 Feel free to explore the repository for more detailed information, including circuit diagrams, code implementation, and setup instructions.
 
