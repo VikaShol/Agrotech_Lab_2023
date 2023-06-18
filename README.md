@@ -17,6 +17,14 @@ Faculty of Agriculture
 
 [Code for ESP32-Cam]([https://github.com/s60sc/ESP32-CAM_MJPEG2SD]
 
+## ESP32-CAM MJPEG2SD
+
+This project utilizes code from the [ESP32-CAM_MJPEG2SD](https://github.com/s60sc/ESP32-CAM_MJPEG2SD) repository by [Max Imagination](https://github.com/s60sc).
+
+Description: [The "ESP32-CAM_MJPEG2SD" project is designed to enable an ESP32-CAM module to capture MJPEG video streams from a camera and save them directly to an SD card. The ESP32-CAM module combines an ESP32 microcontroller and a camera module, making it an ideal platform for capturing and processing video.]
+
+
+
 
 
 
