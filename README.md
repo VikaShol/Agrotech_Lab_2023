@@ -36,7 +36,8 @@ In the first part of the project, three soil moisture sensors are placed inside 
 
 Using the data from the soil moisture sensors, the system determines whether the soil requires watering. If the moisture levels drop below a certain threshold, indicating the need for water, the system triggers the watering mechanism.
 
-Photos/Automated Watering.png
+![Alt Text](Photos/Automated Watering.png)
+
 
 ### Humidity Control
 
