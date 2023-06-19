@@ -9,7 +9,7 @@ For our equipment list, please visit this link : https://github.com/VikaShol/Agr
 
 For our full code and explanation of the steps, please visit this link: https://github.com/VikaShol/Agrotech_Lab_2023/tree/main/Code
 
-For images of the project, please visit this link :
+For images of the project, please visit this link : https://github.com/VikaShol/Agrotech_Lab_2023/tree/main/Photos
 
 Guy, Shir and Vika
 
