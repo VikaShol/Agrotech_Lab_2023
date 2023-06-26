@@ -1,3 +1,5 @@
+// Your C++ code here
+
 #include <Arduino.h>
 #include <Wire.h>
 #include "Adafruit_SHT31.h"
