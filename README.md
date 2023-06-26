@@ -1,7 +1,8 @@
 # Agrotech_Lab_2023
 
 The goal of our project is to create a compact greenhouse that effectively regulates the humidity levels both in the air and in the water for optimal plant growth. To achieve this, we incorporated temperature sensors and fans to control the humidity in the air, as well as soil moisture sensors and a dripper system to regulate the moisture levels in the soil.
-Additionally, we used a solar panel to power the ESP-CAM, in order to capture and document our project and ensure that the greenhouse operates efficiently and sustainably. 
+Additionally, we used a solar panel to power the ESP-CAM, in order to capture and document our project and ensure that the greenhouse operates efficiently and sustainably.  
+![](https://github.com/VikaShol/Agrotech_Lab_2023/blob/main/Photos/project-2.jpg)
 
 By implementing these technologies, we aim to create an environment where plants can thrive by maintaining the ideal humidity conditions required for their growth and development.
 
@@ -10,11 +11,12 @@ For our equipment list, please visit this link : https://github.com/VikaShol/Agr
 For our full code and explanation of the steps, please visit this link: https://github.com/VikaShol/Agrotech_Lab_2023/tree/main/Code
 
 For images of the project, please visit this link :
-https://github.com/VikaShol/Agrotech_Lab_2023/tree/main/Photos
+![](https://github.com/VikaShol/Agrotech_Lab_2023/tree/main/Photos)
 
 Guy, Shir and Vika
-
 Faculty of Agriculture
+
+https://github.com/VikaShol/Agrotech_Lab_2023/blob/main/Photos/Us.jpg
 
 ## ESP32-CAM MJPEG2SD
 
@@ -35,21 +37,19 @@ This project consists of two parts: monitoring soil moisture levels and automati
 
 In the first part of the project, three soil moisture sensors are placed inside separate pots to monitor the moisture levels in the soil. These sensors measure the amount of moisture present in the soil and provide feedback to the system.
 
-![](https://github.com/VikaShol/Agrotech_Lab_2023/blob/main/Photos/Automated%20Watering.png)
-
 Using the data from the soil moisture sensors, the system determines whether the soil requires watering. If the moisture levels drop below a certain threshold, indicating the need for water, the system triggers the watering mechanism.
 
-![](https://github.com/VikaShol/Agrotech_Lab_2023/blob/main/Photos/arduino%20project_bb.png)
-
+![](https://github.com/VikaShol/Agrotech_Lab_2023/blob/main/Photos/Automated%20Watering.png)
+![](https://github.com/VikaShol/Agrotech_Lab_2023/blob/main/Photos/Automated-Watering_1_.jpg)
 
 ### Humidity Control
 
 The second part of the project focuses on controlling humidity levels using an SHT31 sensor. The SHT31 sensor measures the relative humidity (RH) in the environment. If the RH exceeds a predefined threshold, indicating excessive moisture, the system activates a fan to lower the humidity.
 
-![](https://github.com/VikaShol/Agrotech_Lab_2023/blob/main/Photos/Humidity%20Control.jpg)
-
 By integrating the SHT31 sensor and the fan control mechanism, the system creates a closed-loop feedback system to maintain optimal humidity levels. This feature ensures a conducive environment for plant growth and helps prevent issues such as mold or fungal growth.
 
+![](https://github.com/VikaShol/Agrotech_Lab_2023/blob/main/Photos/Humidity%20Control.jpg)
+![](https://github.com/VikaShol/Agrotech_Lab_2023/blob/main/Photos/Humidity-Control_1_.jpg)
 
-Feel free to explore the repository for more detailed information, including circuit diagrams, code implementation, and setup instructions.
+Feel free to explore the repository for more detailed information, including circuit diagrams andcode implementation.
 
