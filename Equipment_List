@@ -1,8 +1,7 @@
 FireBeetle ESP-32 x2
 Soil moisture sensor x1
-Capacitative Soil moisture sensor x3
+Capacitative Soil moisture sensor x2
 Fans x2
-Jumper wires
 LCD Display (?)
 OLED Screen x1 (?)
 Power Supply 2V  x2 (?)
@@ -14,7 +13,7 @@ PAR Sensor x1
 Waterproof temperature sensor x1
 Temperature sensor (SHT31) x1
 Water Flow Sensor x1 (?)
-Solenoid Valve x4
+Solenoid Valve x3
 ESP32-CAM x1
 Lithium Battery Charger and Protection Module (HW-373 V1.1) x1
 A lot of Jumper wires :)
