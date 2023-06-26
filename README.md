@@ -35,6 +35,8 @@ This project consists of two parts: monitoring soil moisture levels and automati
 
 In the first part of the project, three soil moisture sensors are placed inside separate pots to monitor the moisture levels in the soil. These sensors measure the amount of moisture present in the soil and provide feedback to the system.
 
+![](https://github.com/VikaShol/Agrotech_Lab_2023/blob/main/Photos/Automated%20Watering.png)
+
 Using the data from the soil moisture sensors, the system determines whether the soil requires watering. If the moisture levels drop below a certain threshold, indicating the need for water, the system triggers the watering mechanism.
 
 ![](https://github.com/VikaShol/Agrotech_Lab_2023/blob/main/Photos/arduino%20project_bb.png)
