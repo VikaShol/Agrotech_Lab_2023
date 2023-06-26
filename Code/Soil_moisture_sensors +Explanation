@@ -120,7 +120,7 @@ void loop() {
     u8g2.firstPage();
     do {
       u8g2.setFont(u8g2_font_ncenB08_tr);
-      // Display soil moisture 0 the better sensor
+      // Display soil moisture 0 
       if (soilMoisture0 < 45) {
         digitalWrite(relayPin1, HIGH);
         u8g2.drawStr(10, 10, " SM0: ");
@@ -128,7 +128,7 @@ void loop() {
         u8g2.print(soilMoisture0);
         u8g2.print("%");
         Serial.print("soilMoisture0: ");
-        Serial.print(soilMoisture0);//soilMoisture0
+        Serial.print(soilMoisture0);
         Serial.println("%");
       } else {
         digitalWrite(relayPin1, LOW);
@@ -137,14 +137,14 @@ void loop() {
         u8g2.print(soilMoisture0);
         u8g2.print("%");
         Serial.print("soilMoisture0: ");
-        Serial.print(soilMoisture0);//soilMoisture0
+        Serial.print(soilMoisture0);
         Serial.println("%");
       }
       // Display soil moisture 1
       if (percentageHumidity1 < 45) {
         digitalWrite(relayPin2, HIGH);
         Serial.print("sensorVal1: ");
-        Serial.print(sensorVal1);//percentageHumidity1
+        Serial.print(sensorVal1);
         Serial.println("");
         Serial.print(percentageHumidity1);
         Serial.println("%");
@@ -155,7 +155,7 @@ void loop() {
       } else {
         digitalWrite(relayPin2, LOW);
         Serial.print("sensorVal1: ");
-        Serial.print(sensorVal1);//percentageHumidity1
+        Serial.print(sensorVal1);
         Serial.println("");
         Serial.print(percentageHumidity1);
         Serial.println("%");
@@ -168,7 +168,7 @@ void loop() {
       if (percentageHumidity2 < 45) {
         digitalWrite(relayPin3, HIGH);
         Serial.print("sensorVal2: ");
-        Serial.print(sensorVal2);//percentageHumidity2
+        Serial.print(sensorVal2);
         Serial.println("");
         Serial.print(percentageHumidity2);
         Serial.println("%");
@@ -179,7 +179,7 @@ void loop() {
       } else {
         digitalWrite(relayPin3, LOW);
         Serial.print("sensorVal2: ");
-        Serial.print(sensorVal2);//percentageHumidity2
+        Serial.print(sensorVal2);
         Serial.println("");
         Serial.print(percentageHumidity2);
         Serial.println("%");
