@@ -42,8 +42,7 @@ In the first part of the project, three soil moisture sensors are placed inside 
 
 Using the data from the soil moisture sensors, the system determines whether the soil requires watering. If the moisture levels drop below a certain threshold, indicating the need for water, the system triggers the watering mechanism.
 
-<img src="https://github.com/VikaShol/Agrotech_Lab_2023/blob/main/Photos/Automated%20Watering.png" width="400" height="350">
-<img src="https://github.com/VikaShol/Agrotech_Lab_2023/blob/main/Photos/Automated-Watering_1_.jpg" width="400" height="350">
+<img src="https://github.com/VikaShol/Agrotech_Lab_2023/blob/main/Photos/Automated%20Watering.png" width="500" height="450"> <img src="https://github.com/VikaShol/Agrotech_Lab_2023/blob/main/Photos/Automated-Watering_1_.jpg" width="600" height="400">
 
 ### Humidity Control
 
