@@ -15,8 +15,7 @@ https://github.com/VikaShol/Agrotech_Lab_2023/tree/main/Photos
 
 Guy, Shir and Vika
 Faculty of Agriculture
-
-<img src="https://camo.githubusercontent.com/..." data-canonical-src="[https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png](https://github.com/VikaShol/Agrotech_Lab_2023/blob/main/Photos/Us.jpg)" width="200" height="400" />
+<img src="[https://your-image-url.type](https://github.com/VikaShol/Agrotech_Lab_2023/blob/main/Photos/Us.jpg)" width="100" height="100">
 
 ## ESP32-CAM MJPEG2SD
 
