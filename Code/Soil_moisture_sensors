@@ -13,37 +13,34 @@
 U8G2_SSD1306_128X64_NONAME_1_HW_I2C u8g2(U8G2_R0, /* reset=*/U8X8_PIN_NONE);
 
 // ThingSpeak configuration
-unsigned long myChannelNumber = 0000000;//enter your ThingSpeack channel numver
-const char *myWriteAPIKey = "APIkey";//enter your ThingSpeack API key numver
+unsigned long myChannelNumber = 123456; // Replace with your ThingSpeak channel number
+const char *myWriteAPIKey = "YOUR_API_KEY"; // Replace with your ThingSpeak API key
 
 // Soil moisture calibration values
-const int dry = 2955;
-const int wet = 976;
-const float Swet = 44.92;
+const int dry1 = 2975;
+const int wet1 = 174;
+
+const int dry2 = 2975;//2959
+const int wet2 = 561;//-955
+
+const float Swet = 49.15;
 const float Sdry = 0.0;
 
-// //////////Pin configurations/////////
-//capacitve soil moisture pins
+// Pin configurations
+const int soilMoisturePin = A0;
 const int CapacitiveSoilSensor1 = A2;
 const int CapacitiveSoilSensor2 = A3;
-const int CapacitiveSoilSensor3 = A4;
-//relay pins
 const int relayPin1 = D2;
 const int relayPin2 = D3;
 const int relayPin3 = D6;
-const int relayPin4 = D7;
 
 // Wi-Fi configuration
-const char *ssid = "ssid";//enter your wifi ssid
-const char *password = "pass";//enter your wifi password
+const char *ssid = "YOUR_SSID";//enter your wifi ssid
+const char *password = "YOUR_PASSWORD";//enter your wifi password
 const char *server = "api.thingspeak.com";
 WiFiClient client;
 
 Adafruit_SHT31 sht31 = Adafruit_SHT31();
-//soil moisture&temprture pins
-const int soilMoisturePin = A0;
-
-const int soilTempPin = A1;//not in used because i have only one sensor that mesuring temp and moisture
 
 // Measurement interval configuration
 unsigned long previousMeasurementTime = 0;
@@ -55,10 +52,12 @@ void setup() {
   pinMode(relayPin1, OUTPUT);
   pinMode(relayPin2, OUTPUT);                                         
   pinMode(relayPin3, OUTPUT); 
-  pinMode(relayPin4, OUTPUT);
 
+  pinMode(CapacitiveSoilSensor1, INPUT);
+  pinMode(CapacitiveSoilSensor2, INPUT);
+  pinMode(soilMoisturePin, INPUT);
     // Connect to Wi-Fi
-  WiFi.disconnect(true);
+  WiFi.disconnect(true);//true
   delay(10);
   WiFi.begin(ssid, password);
   Serial.println();
@@ -92,28 +91,26 @@ void loop() {
     // Read sensor data
     int sensorVal1 = analogRead(CapacitiveSoilSensor1);
     int sensorVal2 = analogRead(CapacitiveSoilSensor2);
-    int sensorVal3 = analogRead(CapacitiveSoilSensor3);
-    int percentageHumidity1 = map(sensorVal1, wet, dry, 100, 0);
-    int percentageHumidity2 = map(sensorVal2, wet, dry, 100, 0);
-    int percentageHumidity3 = map(sensorVal3, wet, dry, 100, 0);
+
+    int percentageHumidity1 = map(sensorVal1, wet1, dry1, 100, 0);
+    int percentageHumidity2 = map(sensorVal2, wet2, dry2, 100, 0);
+
 
     int soilMoistureValue = analogRead(soilMoisturePin);
-    int soilTempValue = analogRead(soilTempPin);
+    //int soilTempValue = analogRead(soilTempPin);//uncomment for soil temp mesurments
     float t = sht31.readTemperature();
     float h = sht31.readHumidity();
     // Calculate soil moisture and temperature values
     float soilMoisture = (soilMoistureValue / 1000.0) * 25.0;
-    float soilTemp = (soilTempValue / 1000.0) * 60.0 - 32.0;
+    //float soilTemp = (soilTempValue / 1000.0) * 60.0 - 32.0;//uncoomment for soil temp mesurments
     float soilMoisture0 = map(soilMoisture, Swet, Sdry, 100.0, 0.0);
 
     // Upload data to ThingSpeak
-    ThingSpeak.setField(1, soilMoisture0);
-    ThingSpeak.setField(2, soilTemp);
-    ThingSpeak.setField(3, t);
-    ThingSpeak.setField(4, h);
-    ThingSpeak.setField(5, percentageHumidity1);
-    ThingSpeak.setField(6, percentageHumidity2);
-    ThingSpeak.setField(7, percentageHumidity3);
+    ThingSpeak.setField(1, h);
+    ThingSpeak.setField(2, t);
+    ThingSpeak.setField(3, soilMoisture0);
+    ThingSpeak.setField(4, percentageHumidity1);
+    ThingSpeak.setField(5, percentageHumidity2);
     ThingSpeak.writeFields(myChannelNumber, myWriteAPIKey);
 
     Serial.println("Uploaded to ThingSpeak server....");
@@ -124,30 +121,31 @@ void loop() {
     do {
       u8g2.setFont(u8g2_font_ncenB08_tr);
       // Display soil moisture 0 the better sensor
-      if (soilMoisture0 < 50) {
-        digitalWrite(relayPin1, LOW);
+      if (soilMoisture0 < 45) {
+        digitalWrite(relayPin1, HIGH);
         u8g2.drawStr(10, 10, " SM0: ");
         u8g2.setCursor(50, 10);
         u8g2.print(soilMoisture0);
         u8g2.print("%");
-
         Serial.print("soilMoisture0: ");
-        Serial.print(soilMoisture0);
+        Serial.print(soilMoisture0);//soilMoisture0
         Serial.println("%");
       } else {
-        digitalWrite(relayPin1, HIGH);
+        digitalWrite(relayPin1, LOW);
         u8g2.drawStr(10, 10, "SM0 ");
         u8g2.setCursor(50, 10);
         u8g2.print(soilMoisture0);
         u8g2.print("%");
         Serial.print("soilMoisture0: ");
-        Serial.print(soilMoisture0);
+        Serial.print(soilMoisture0);//soilMoisture0
         Serial.println("%");
       }
       // Display soil moisture 1
-      if (percentageHumidity1 < 50) {
-        digitalWrite(relayPin2, LOW);
+      if (percentageHumidity1 < 45) {
+        digitalWrite(relayPin2, HIGH);
         Serial.print("sensorVal1: ");
+        Serial.print(sensorVal1);//percentageHumidity1
+        Serial.println("");
         Serial.print(percentageHumidity1);
         Serial.println("%");
         u8g2.drawStr(10, 20, " SM1: ");
@@ -155,8 +153,10 @@ void loop() {
         u8g2.print(percentageHumidity1);
         u8g2.print("%");
       } else {
-        digitalWrite(relayPin2, HIGH);
+        digitalWrite(relayPin2, LOW);
         Serial.print("sensorVal1: ");
+        Serial.print(sensorVal1);//percentageHumidity1
+        Serial.println("");
         Serial.print(percentageHumidity1);
         Serial.println("%");
         u8g2.drawStr(10, 20, " SM1: ");
@@ -165,18 +165,22 @@ void loop() {
         u8g2.print("%");
       }
       // Display soil moisture 2
-      if (percentageHumidity2 < 50) {
-        digitalWrite(relayPin3, LOW);
-        Serial.print("sensorVal2: ");
-        Serial.print(percentageHumidity2);
-        Serial.println("%");
-        u8g2.drawStr(10, 30, " SM2: ");
-        u8g2.setCursor(50, 30);
-        u8g2.print(percentageHumidity2);
-        u8g2.print("%");
-      } else {
+      if (percentageHumidity2 < 45) {
         digitalWrite(relayPin3, HIGH);
         Serial.print("sensorVal2: ");
+        Serial.print(sensorVal2);//percentageHumidity2
+        Serial.println("");
+        Serial.print(percentageHumidity2);
+        Serial.println("%");
+        u8g2.drawStr(10, 30, " SM2: ");
+        u8g2.setCursor(50, 30);
+        u8g2.print(percentageHumidity2);
+        u8g2.print("%");
+      } else {
+        digitalWrite(relayPin3, LOW);
+        Serial.print("sensorVal2: ");
+        Serial.print(sensorVal2);//percentageHumidity2
+        Serial.println("");
         Serial.print(percentageHumidity2);
         Serial.println("%");
         u8g2.drawStr(10, 30, " SM2: ");
@@ -184,26 +188,7 @@ void loop() {
         u8g2.print(percentageHumidity2);
         u8g2.print("%");
       }
-      // Display soil moisture 3
-      if (percentageHumidity3 < 50) {
-        digitalWrite(relayPin4, LOW);
-        Serial.print("sensorVal3: ");
-        Serial.print(percentageHumidity3);
-        Serial.println("%");
-        u8g2.drawStr(10, 40, " SM3: ");
-        u8g2.setCursor(50, 40);
-        u8g2.print(percentageHumidity3);
-        u8g2.print("%");
-      } else {
-        digitalWrite(relayPin4, HIGH);
-        Serial.print("sensorVal3: ");
-        Serial.print(percentageHumidity3);
-        Serial.println("%");
-        u8g2.drawStr(10, 40, " SM3: ");
-        u8g2.setCursor(50, 40);
-        u8g2.print(percentageHumidity3);
-        u8g2.print("%");
-      }
+
       // Display temperature on oled screen
       u8g2.drawStr(10, 50, " Temp: ");
       u8g2.setCursor(50, 50);
