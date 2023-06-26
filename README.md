@@ -11,12 +11,12 @@ For our equipment list, please visit this link : https://github.com/VikaShol/Agr
 For our full code and explanation of the steps, please visit this link: https://github.com/VikaShol/Agrotech_Lab_2023/tree/main/Code
 
 For images of the project, please visit this link :
-![](https://github.com/VikaShol/Agrotech_Lab_2023/tree/main/Photos)
+https://github.com/VikaShol/Agrotech_Lab_2023/tree/main/Photos
 
 Guy, Shir and Vika
 Faculty of Agriculture
 
-https://github.com/VikaShol/Agrotech_Lab_2023/blob/main/Photos/Us.jpg
+![](https://github.com/VikaShol/Agrotech_Lab_2023/blob/main/Photos/Us.jpg)
 
 ## ESP32-CAM MJPEG2SD
 
