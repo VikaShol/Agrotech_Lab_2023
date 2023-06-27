@@ -28,9 +28,6 @@ This project utilizes code from the [ESP32-CAM_MJPEG2SD](https://github.com/s60s
 
 Description: [The "ESP32-CAM_MJPEG2SD" project is designed to enable an ESP32-CAM module to capture MJPEG video streams from a camera and save them directly to an SD card. The ESP32-CAM module combines an ESP32 microcontroller and a camera module, making it an ideal platform for capturing and processing video.]
 
-The code in this repository is based on the work of [[Author's Name](https://github.com/s60sc). Please refer to their repository for the original source code and license information. For more detailed instructions and a step-by-step guide, please check out the accompanying [YouTube tutorial](https://www.youtube.com/watch?v=k_PJLkfqDuI) for this project.
-
-
 ## Project Description
 
 This project consists of two parts: monitoring soil moisture levels and automating watering using solenoid valves, as well as controlling humidity levels with a fan.
