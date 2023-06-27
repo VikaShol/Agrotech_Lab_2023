@@ -19,16 +19,6 @@ Faculty of Agriculture
 
 <img src="https://github.com/VikaShol/Agrotech_Lab_2023/blob/main/Photos/Us.jpg" width="150" height="200">
 
-
-### ESP32-CAM MJPEG2SD
-
-This project utilizes code from the [ESP32-CAM_MJPEG2SD](https://github.com/s60sc/ESP32-CAM_MJPEG2SD) repository by [s60sc](https://github.com/s60sc).
-
-Description: [The "ESP32-CAM_MJPEG2SD" project is designed to enable an ESP32-CAM module to capture MJPEG video streams from a camera and save them directly to an SD card. The ESP32-CAM module combines an ESP32 microcontroller and a camera module, making it an ideal platform for capturing and processing video.]
-
-<img src="https://github.com/VikaShol/Agrotech_Lab_2023/blob/main/Photos/esp32-cam.jpeg" width="200" height="300"> <img src="https://github.com/VikaShol/Agrotech_Lab_2023/blob/main/Photos/esp32-cam_fritzing.png" width="200" height="300">
-
-
 ## Project Description
 
 This project consists of two parts: monitoring soil moisture levels and automating watering using solenoid valves, as well as controlling humidity levels with a fan.
@@ -49,6 +39,15 @@ By integrating the SHT31 sensor and the fan control mechanism, the system create
 
 
 <img src="https://github.com/VikaShol/Agrotech_Lab_2023/blob/main/Photos/Humidity%20Control.jpg" width="500" height="450"> <img src="https://github.com/VikaShol/Agrotech_Lab_2023/blob/main/Photos/Humidity-Control_1_.jpg" width="300" height="400">
+
+
+### ESP32-CAM MJPEG2SD
+
+This project utilizes code from the [ESP32-CAM_MJPEG2SD](https://github.com/s60sc/ESP32-CAM_MJPEG2SD) repository by [s60sc](https://github.com/s60sc).
+
+Description: [The "ESP32-CAM_MJPEG2SD" project is designed to enable an ESP32-CAM module to capture MJPEG video streams from a camera and save them directly to an SD card. The ESP32-CAM module combines an ESP32 microcontroller and a camera module, making it an ideal platform for capturing and processing video.]
+
+<img src="https://github.com/VikaShol/Agrotech_Lab_2023/blob/main/Photos/esp32-cam.jpeg" width="200" height="300"> <img src="https://github.com/VikaShol/Agrotech_Lab_2023/blob/main/Photos/esp32-cam_fritzing.png" width="200" height="300">
 
 
 Feel free to explore the repository for more detailed information, including circuit diagrams andcode implementation.
