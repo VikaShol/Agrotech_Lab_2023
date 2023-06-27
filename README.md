@@ -22,7 +22,7 @@ Faculty of Agriculture
 
 ## ESP32-CAM MJPEG2SD
 
-This project utilizes code from the [ESP32-CAM_MJPEG2SD](https://github.com/s60sc/ESP32-CAM_MJPEG2SD) repository by [Max Imagination](https://github.com/s60sc).
+This project utilizes code from the [ESP32-CAM_MJPEG2SD](https://github.com/s60sc/ESP32-CAM_MJPEG2SD) repository by [s60sc](https://github.com/s60sc).
 
 ### Credit
 
