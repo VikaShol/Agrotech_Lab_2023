@@ -13,7 +13,8 @@
   7. 1 X [Breadboard](https://he.aliexpress.com/item/1005003640449308.html?spm=a2g0o.search0304.0.0.5fab692f1DqEZK&algo_pvid=a722cf1e-c2ba-4fde-b94f-ef8fe25a6ce9&algo_exp_id=a722cf1e-c2ba-4fde-b94f-ef8fe25a6ce9-14&pdp_ext_f=%7B%22sku_id%22%3A%2212000026608920636%22%7D&pdp_npi=2%40dis%21ILS%21%2117.36%21%21%214.23%21%21%400b0a187b16578059214857204e2875%2112000026608920636%21sea&gatewayAdapt=glo2isr)
   8. 1 X solar panel
   9. 1 X [Booster](https://he.aliexpress.com/item/1005002033597196.html?pdp_npi=2%40dis%21ILS%21%E2%82%AA1.38%21%E2%82%AA0.86%21%21%21%21%21%402103011716879473808746896ee33e%2112000018482386066%21btf&_t=pvid%3Abbfa2e10-fd89-4b33-ac68-33205e3d9819&afTraceInfo=1005002033597196__pc__pcBridgePPC__xxxxxx__1687947381&spm=a2g0o.ppclist.product.mainProduct&gatewayAdapt=glo2isr)
-
+  10. [Lithium charge and protect board](https://www.getelectronic.net/products/1a-single-cell-lithium-charge-and-protect-board-usb-c)
+  11. 
 ## Soil Moisture
 
   10. 1 X [ESP-32](https://www.aliexpress.com/item/32818325860.html?spm=a2g0o.productlist.main.1.11363350vrWJ2f&algo_pvid=0f2d2c1c-1b2b-4c17-abfd-e9d964b57f3b&algo_exp_id=0f2d2c1c-1b2b-4c17-abfd-e9d964b57f3b-0&pdp_npi=3%40dis%21ILS%2138.05%2138.05%21%21%21%21%21%402145265416879447871754183d0768%2164857728170%21sea%21IL%210&curPageLogUid=3akOhKdT7bIE)
