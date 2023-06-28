@@ -3,7 +3,7 @@
 The goal of our project is to create a compact greenhouse that effectively regulates the humidity levels both in the air and in the water for optimal plant growth. To achieve this, we incorporated temperature sensors and fans to control the humidity in the air, as well as soil moisture sensors and a dripper system to regulate the moisture levels in the soil.
 Additionally, we used a solar panel to power the ESP-CAM, in order to capture and document our project and ensure that the greenhouse operates efficiently and sustainably.  
 
-<img src="https://github.com/VikaShol/Agrotech_Lab_2023/blob/main/Photos/project-2.jpg" width="300" height="400"> <img src="https://github.com/VikaShol/Agrotech_Lab_2023/blob/main/Photos/project_area_pic.jpeg" width="300" height="400">
+<img src="https://github.com/VikaShol/Agrotech_Lab_2023/blob/main/Photos/project_inside_pic.jpeg" width="300" height="400"> <img src="https://github.com/VikaShol/Agrotech_Lab_2023/blob/main/Photos/project_area_pic.jpeg" width="300" height="400">
 
 By implementing these technologies, we aim to create an environment where plants can thrive by maintaining the ideal humidity conditions required for their growth and development.
 
