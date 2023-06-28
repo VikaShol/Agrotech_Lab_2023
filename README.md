@@ -38,7 +38,7 @@ The second part of the project focuses on controlling humidity levels using an S
 By integrating the SHT31 sensor and the fan control mechanism, the system creates a closed-loop feedback system to maintain optimal humidity levels. This feature ensures a conducive environment for plant growth and helps prevent issues such as mold or fungal growth.
 
 
-<img src="https://github.com/VikaShol/Agrotech_Lab_2023/blob/main/Photos/Humidity%20Control.jpg" width="500" height="450"> <img src="https://github.com/VikaShol/Agrotech_Lab_2023/blob/main/Photos/Humidity_Control_pic.jpeg" width="300" height="400">
+<img src="https://github.com/VikaShol/Agrotech_Lab_2023/blob/main/Photos/Humidity%20Control.jpg" width="500" height="450"> <img src="https://github.com/VikaShol/Agrotech_Lab_2023/blob/main/Photos/Humidity_Control_P.jpeg" width="300" height="400">
 
 
 ### ESP32-CAM MJPEG2SD
