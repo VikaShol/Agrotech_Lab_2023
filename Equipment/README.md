@@ -14,7 +14,7 @@
   8. 1 X solar panel
   9. 1 X Booster
 
-##Soil Moisture
+## Soil Moisture
 
   10. 1 X [ESP-32](https://www.aliexpress.com/item/32818325860.html?spm=a2g0o.productlist.main.1.11363350vrWJ2f&algo_pvid=0f2d2c1c-1b2b-4c17-abfd-e9d964b57f3b&algo_exp_id=0f2d2c1c-1b2b-4c17-abfd-e9d964b57f3b-0&pdp_npi=3%40dis%21ILS%2138.05%2138.05%21%21%21%21%21%402145265416879447871754183d0768%2164857728170%21sea%21IL%210&curPageLogUid=3akOhKdT7bIE)
   11. 1 X [Breadboard](https://he.aliexpress.com/item/1005003640449308.html?spm=a2g0o.search0304.0.0.5fab692f1DqEZK&algo_pvid=a722cf1e-c2ba-4fde-b94f-ef8fe25a6ce9&algo_exp_id=a722cf1e-c2ba-4fde-b94f-ef8fe25a6ce9-14&pdp_ext_f=%7B%22sku_id%22%3A%2212000026608920636%22%7D&pdp_npi=2%40dis%21ILS%21%2117.36%21%21%214.23%21%21%400b0a187b16578059214857204e2875%2112000026608920636%21sea&gatewayAdapt=glo2isr)
@@ -25,6 +25,8 @@
   16.  1 X [Power supply 12V](https://www.aliexpress.com/item/1005001900841632.html?spm=a2g0o.productlist.main.5.4f5617dbZ9Zhb6&algo_pvid=1a421dad-9e22-4795-8a2f-56971ca8e04c&aem_p4p_detail=202306280240275689150413151810000033702&algo_exp_id=1a421dad-9e22-4795-8a2f-56971ca8e04c-2&pdp_npi=3%40dis%21ILS%2121.25%2116.99%21%21%21%21%21%402145279016879452278303634d0790%2112000018153484811%21sea%21IL%210&curPageLogUid=IbxlXOj0dzl5&search_p4p_id=202306280240275689150413151810000033702_3)
   17.  1 X [4 Relay Module](https://www.aliexpress.com/item/1005003132285985.html?spm=a2g0o.productlist.main.1.23bd7fcefiFffo&algo_pvid=c78048b3-ebdb-41a8-ae65-d2e4c39f6a11&aem_p4p_detail=2023062802410711590123052753280000034864&algo_exp_id=c78048b3-ebdb-41a8-ae65-d2e4c39f6a11-0&pdp_npi=3%40dis%21ILS%213.7%213.29%21%21%21%21%21%402145265416879452676948503d0768%2112000024272771305%21sea%21IL%210&curPageLogUid=tvw62voebacD&search_p4p_id=2023062802410711590123052753280000034864_1)
   18. [Jumpers a lot!](https://he.aliexpress.com/item/1005003252824475.html?spm=a2g0o.search0304.0.0.5fab692f1DqEZK&algo_pvid=a722cf1e-c2ba-4fde-b94f-ef8fe25a6ce9&algo_exp_id=a722cf1e-c2ba-4fde-b94f-ef8fe25a6ce9-13&pdp_ext_f=%7B%22sku_id%22%3A%2212000024867532507%22%7D&pdp_npi=2%40dis%21ILS%21%2114.17%21%21%211.38%21%21%400b0a187b16578059214857204e2875%2112000024867532507%21sea&gatewayAdapt=glo2isr)
-  
+
+  ## ESP CAM
+  19. 1X [ESP-CAM](https://he.aliexpress.com/item/1005003804757059.html?spm=a2g0o.productlist.main.1.3af51Ld91Ld9hN&algo_pvid=8a92f096-e143-4eb2-b9e0-070f4e388598&algo_exp_id=8a92f096-e143-4eb2-b9e0-070f4e388598-0&pdp_npi=3%40dis%21ILS%2126.68%2121.89%21%21%21%21%21%40214528be16879469603807188d076c%2112000027224927553%21sea%21IL%210&curPageLogUid=yjgS3A1sX77j)
  <ins>Circuit Diagram</ins>
  
