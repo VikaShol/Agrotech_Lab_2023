@@ -28,5 +28,5 @@
 
   ## ESP CAM
   19. 1X [ESP-CAM](https://he.aliexpress.com/item/1005003804757059.html?spm=a2g0o.productlist.main.1.3af51Ld91Ld9hN&algo_pvid=8a92f096-e143-4eb2-b9e0-070f4e388598&algo_exp_id=8a92f096-e143-4eb2-b9e0-070f4e388598-0&pdp_npi=3%40dis%21ILS%2126.68%2121.89%21%21%21%21%21%40214528be16879469603807188d076c%2112000027224927553%21sea%21IL%210&curPageLogUid=yjgS3A1sX77j)
- <ins>Circuit Diagram</ins>
+
  
