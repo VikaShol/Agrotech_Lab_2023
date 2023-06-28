@@ -13,6 +13,7 @@
   7. 1 X [Breadboard](https://he.aliexpress.com/item/1005003640449308.html?spm=a2g0o.search0304.0.0.5fab692f1DqEZK&algo_pvid=a722cf1e-c2ba-4fde-b94f-ef8fe25a6ce9&algo_exp_id=a722cf1e-c2ba-4fde-b94f-ef8fe25a6ce9-14&pdp_ext_f=%7B%22sku_id%22%3A%2212000026608920636%22%7D&pdp_npi=2%40dis%21ILS%21%2117.36%21%21%214.23%21%21%400b0a187b16578059214857204e2875%2112000026608920636%21sea&gatewayAdapt=glo2isr)
 
 ##Soil Moisture
+
   9. 1 X [Temprature sensor](https://he.aliexpress.com/item/32580791476.html?spm=a2g0o.productlist.0.0.1ef238ddJsnH8J&algo_pvid=201221b0-10fb-49f9-ab89-67882b0cf028&aem_p4p_detail=202207140627549418085009667600002143701&algo_exp_id=201221b0-10fb-49f9-ab89-67882b0cf028-19&pdp_ext_f=%7B%22sku_id%22%3A%2258675593995%22%7D&pdp_npi=2%40dis%21ILS%21%216.21%21%21%2113.63%21%21%402100bb5116578052743317387e6bfa%2158675593995%21sea
 )
   8. 2 X [Breadboard](https://he.aliexpress.com/item/1005003640449308.html?spm=a2g0o.search0304.0.0.5fab692f1DqEZK&algo_pvid=a722cf1e-c2ba-4fde-b94f-ef8fe25a6ce9&algo_exp_id=a722cf1e-c2ba-4fde-b94f-ef8fe25a6ce9-14&pdp_ext_f=%7B%22sku_id%22%3A%2212000026608920636%22%7D&pdp_npi=2%40dis%21ILS%21%2117.36%21%21%214.23%21%21%400b0a187b16578059214857204e2875%2112000026608920636%21sea&gatewayAdapt=glo2isr)
