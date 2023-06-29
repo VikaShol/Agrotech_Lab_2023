@@ -50,7 +50,7 @@ Description: [The "ESP32-CAM_MJPEG2SD" project is designed to enable an ESP32-CA
 <img src="https://github.com/VikaShol/Agrotech_Lab_2023/blob/main/Photos/esp32-cam.jpeg" width="200" height="300"> <img src="https://github.com/VikaShol/Agrotech_Lab_2023/blob/main/Photos/esp32-cam_fritzing.png" width="200" height="300">
 
 ## Tips for improvement
-1. Use a bigger solar panel and increase the capacity of the battery, consider using deepslip mode to save energy, this is how we wake up the sensors in order to take a measurement.
+1. Use a bigger solar panel and increase the capacity of the battery, consider using deep sleep mode to save energy, this is how we wake up the sensors in order to take a measurement.
 2. Make an FTP server to which you can upload the data from the camera, so you don't have to go to the greenhouse to check it.
 3. Adding a cooling and spraying system in order to control the relative humidity.
 
